@@ -75,6 +75,8 @@ public interface IMicrowaveOvenHW
 
 To set up and run this project:
 
+### Option 1: Using Visual Studio
+
 1.  Clone the repository.
 
 2.  Open the solution in Visual Studio.
@@ -82,6 +84,19 @@ To set up and run this project:
 3.  Build the solution to restore NuGet packages and compile the code.
 
 4.  Run the unit tests to verify the controller's functionality.
+
+### Option 2: Using the .NET CLI (Command Line Interface)
+
+This option is great if you prefer working in the terminal or don't have Visual Studio installed.
+1. **Prerequisite:** Ensure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+2.  Clone the repository
+   
+3.  Go to the project folder (e.g., `src/MicrowaveOven`). 
+
+4.  **Run the application:**
+    ```bash
+    dotnet run
+    ```
 
 ## Usage (Console Application)
 
